@@ -21,6 +21,8 @@
                     <asp:BoundField DataField="AboutME" HeaderText="About Me" />
 				</Columns>
         </asp:GridView>
+        <br />
+        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Logout" />
     </form>
 </body>
 </html>

@@ -49,5 +49,10 @@ namespace Lab_4
                 //Err.Text = "No artifact of this author exists!";
             }
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Login.aspx");
+        }
     }
 }

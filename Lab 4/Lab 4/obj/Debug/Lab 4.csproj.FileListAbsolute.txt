@@ -41,3 +41,46 @@ c:\users\duaa\documents\visual studio 2015\Projects\Lab 4\Lab 4\bin\MySql.Web.xm
 c:\users\duaa\documents\visual studio 2015\Projects\Lab 4\Lab 4\obj\Debug\Lab 4.csprojResolveAssemblyReference.cache
 c:\users\duaa\documents\visual studio 2015\Projects\Lab 4\Lab 4\obj\Debug\Lab 4.dll
 c:\users\duaa\documents\visual studio 2015\Projects\Lab 4\Lab 4\obj\Debug\Lab 4.pdb
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\ApplicationInsights.config
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\roslyn\csc.exe
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\roslyn\vbc.exe
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\roslyn\VBCSCompiler.exe
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\Lab 4.dll.config
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\Lab 4.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\Lab 4.pdb
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\Microsoft.AI.Web.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\MySql.Data.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\MySql.Web.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\Microsoft.AI.Web.xml
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\MySql.Data.xml
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\MySql.Data.Entity.EF6.xml
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\bin\MySql.Web.xml
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\obj\Debug\Lab 4.csprojResolveAssemblyReference.cache
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\obj\Debug\Lab 4.dll
+C:\Users\Duaa\Documents\GitHub\SC-Labs\Lab 4\Lab 4\obj\Debug\Lab 4.pdb

@@ -61,5 +61,10 @@ namespace Lab_4
                 Label5.Text = "Email Does not exist";
             }
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Login.aspx");
+        }
     }
 }
