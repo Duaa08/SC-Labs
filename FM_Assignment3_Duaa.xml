@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nta PUBLIC '-//Uppaal Team//DTD Flat System 1.1//EN' 'http://www.it.uu.se/research/group/darts/uppaal/flat-1_2.dtd'>
+<nta>
+	<declaration>// Place global declarations here.
+
+// sync on chanels
+
+chan get_center, put_center;
+
+</declaration>
+	<template>
+		<name x="5" y="5">Jobber</name>
+		<declaration>// Place local declarations here.
+clock w;</declaration>
+		<location id="id0" x="-195" y="93">
+			<name x="-205" y="59">move</name>
+			<label kind="invariant" x="-205" y="110">w&lt;=3</label>
+		</location>
+		<location id="id1" x="-501" y="-34">
+			<name x="-484" y="-59">begin</name>
+		</location>
+		<init ref="id1"/>
+		<transition>
+			<source ref="id1"/>
+			<target ref="id0"/>
+			<label kind="synchronisation" x="-483" y="12">get_center!</label>
+			<label kind="assignment" x="-483" y="29">w=0</label>
+		</transition>
+		<transition>
+			<source ref="id0"/>
+			<target ref="id1"/>
+			<label kind="synchronisation" x="-340" y="153">put_center!</label>
+			<label kind="assignment" x="-475" y="153">w=3</label>
+			<nail x="-195" y="153"/>
+			<nail x="-493" y="153"/>
+			<nail x="-501" y="-25"/>
+		</transition>
+	</template>
+	<template>
+		<name>Center</name>
+		<declaration>clock x;</declaration>
+		<location id="id2" x="-255" y="-42">
+			<name x="-265" y="-76">taken</name>
+		</location>
+		<location id="id3" x="-399" y="-34">
+			<name x="-409" y="-68">free</name>
+		</location>
+		<init ref="id3"/>
+		<transition>
+			<source ref="id2"/>
+			<target ref="id3"/>
+			<label kind="synchronisation" x="-365" y="-102">put_center?</label>
+			<nail x="-331" y="-76"/>
+		</transition>
+		<transition>
+			<source ref="id3"/>
+			<target ref="id2"/>
+			<label kind="synchronisation" x="-365" y="0">get_center?</label>
+			<label kind="assignment" x="-381" y="-17">x=0</label>
+			<nail x="-331" y="0"/>
+		</transition>
+	</template>
+	<system>// Place template instantiations here.
+G11 = Jobber();
+KashmirHighway =Jobber();
+ZeroPoint = Jobber();
+NUST = Jobber();
+// List one or more processes to be composed into a system.
+system G11, KashmirHighway, ZeroPoint, NUST, Center;
+    </system>
+	<queries>
+		<query>
+			<formula>A[]  (G11.move &amp;&amp; KashmirHighway.move &amp;&amp; ZeroPoint.move &amp;&amp; NUST.move)
+			</formula>
+			<comment>
+			</comment>
+		</query>
+		<query>
+			<formula>A[] not (G11.move &amp;&amp; KashmirHighway.move &amp;&amp; ZeroPoint.move &amp;&amp; NUST.move)
+			</formula>
+			<comment>MutEx: Never (Not in any of the future states) Jobber1 and Jobber 2 both will work_hard.
+			</comment>
+		</query>
+		<query>
+			<formula>A[] Center.taken == (G11.move || KashmirHighway.move || ZeroPoint.move || NUST.move)
+			</formula>
+			<comment>Whenever Hammer is taken, either Jobber1 is work_avg_hammer or Jobber2 is work_avg_hammer or Jobber1 is work_hard or Jobber2 is work_hard.
+			</comment>
+		</query>
+		<query>
+			<formula>E&lt;&gt; NUST.move &amp;&amp; G11.move
+			</formula>
+			<comment>Does there exists, in future, that Jobber1 works hard and Jobber2 works hard too?
+			</comment>
+		</query>
+		<query>
+			<formula>E&lt;&gt; not deadlock
+			</formula>
+			<comment>Does there exist any deadlock?
+			</comment>
+		</query>
+		<query>
+			<formula>A[] not deadlock
+			</formula>
+			<comment>We are checking the possible deadlock here.
+			</comment>
+		</query>
+	</queries>
+</nta>
